@@ -20,6 +20,6 @@ connectDB();
 
 
  //API Endpoints
- app.get('/',  (req, res) => res.send("API working fine"));
+ app.get('/',  (req, res) => res.send("API working successfully"));
  app.use('/api/auth', authRouter)
  app.listen(port, ()=>console.log(`'Server started on PORT : ${port}`));   //whenever we will start the backend then this app will started and will print the msg in terminal 
